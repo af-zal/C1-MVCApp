@@ -1,0 +1,15 @@
+﻿@model List<S3_MVCPractice.Models.AthleteViewModel>
+
+@{
+}
+
+<h1>Welcome</h1>
+
+
+<ul>
+    @foreach(var athlete in Model){
+
+        <li>@athlete.Name (@athlete.Age) - @athlete.JerseyNumber</li>
+
+    }
+</ul>
